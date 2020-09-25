@@ -11,7 +11,7 @@ const Homepage = ({importTools, importBuildingSites, importTransports, setScreen
         <p onClick={(e) => {
           importTools(e) ;
           setScreen('tools')
-          }}>Herramientas vieja</p>
+          }}>Herramientas</p>
         <p onClick={(e) => {
           importBuildingSites(e) ;
           setScreen('building')
